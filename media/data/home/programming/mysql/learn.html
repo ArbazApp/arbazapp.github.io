@@ -1,0 +1,42 @@
+<style>
+    .learn_mysql {
+        min-height: 100vh;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .command {
+        color: lime;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: monospace;
+    }
+    
+    .mysql_buttons {
+        height: 50px;
+        width: 200px;
+        border: none;
+        background-color: crimson;
+        color: white;
+        margin: 10px;
+    }
+</style>
+
+<div class="learn_mysql">
+
+    <p> let's start learning mysql, i am using mariadb on Linux, to start mysql server follow this way</p>
+    <p>Linux user open terminal and write following commands</p>
+    <p class="command">/opt/lampp/bin/mysql</p>
+    <p>this commands runs mysql start script store in bin folter that starts mysql server and you can login in mysql server, usually xampp mysql has no password mean you don't need to write password </p>
+
+    <p>after log in successfully you can see status through using status command , in my terminal it shows </p>
+
+    <div>
+        <img src="media/image/mysql/mysql_status.png" height="auto" width="90%" />
+    </div>
+
+    <p><button class="mysql_buttons" ontouch="apicall('media/data/home/programming/mysql/mysql.html', '.article') " onclick="apicall( 'media/data/home/programming/mysql/mysql.html', '.article') ">MYSQL</button></p>
+    <p>
+        <button class="mysql_buttons" ontouch=" apicall( 'media/data/homepage.html', '.article')" onclick=" apicall( 'media/data/homepage.html', '.article') ">Home</button></p>
+
+</div>
